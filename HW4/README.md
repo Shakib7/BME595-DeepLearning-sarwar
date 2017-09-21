@@ -1,10 +1,10 @@
-##HW04 - Neural Networks- Back-propagation pass :NeuralNetwork API, MyImg2Num and NnImg2Num API
+### HW04 - Neural Networks- Back-propagation pass :NeuralNetwork API, MyImg2Num and NnImg2Num API
 
-###1. Network size is [784,50,10]
+## 1. Network size is [784,50,10]
 
-###2. Training Time with my NeuralNetwork API is ~2000x compared to nn package
+## 2. Training Time with my NeuralNetwork API is ~2000x compared to nn package
 
-###3. Accuracy is close. Though learning rate is different: 0.5 for MyImg2Num  and 0.001 for  NnImg2Num.
+## 3. Accuracy is close. Though learning rate is different: 0.5 for MyImg2Num  and 0.001 for  NnImg2Num.
 
 # NeuralNetwork API has one class with five methods __init__, getLayer(), forward(), backward() and updateParams().
 
