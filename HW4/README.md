@@ -1,7 +1,9 @@
 #HW04 - Neural Networks- Back-propagation pass :NeuralNetwork API, MyImg2Num and NnImg2Num API
 
 ###1. Network size is [784,50,10]
+
 ###2. Training Time with my NeuralNetwork API is ~2000x compared to nn package
+
 ###3. Accuracy is close. Though learning rate is different: 0.5 for MyImg2Num  and 0.001 for  NnImg2Num.
 
 ## NeuralNetwork API has one class with five methods __init__, getLayer(), forward(), backward() and updateParams().
@@ -24,14 +26,14 @@
 
 [GitHub](https://github.com/Shakib7/BME595-DeepLearning-sarwar/tree/master/HW4)
 
-![Accuracy vs epoch (My)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Acc(My).jpg)
+![Accuracy vs epoch (My)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Acc(My).jpg)
 
-![Accuracy vs epoch (NN)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Acc(NN).jpg)
+![Accuracy vs epoch (NN)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Acc(NN).jpg)
 
-![Time vs epoch (My)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Time(My).jpg)
+![Time vs epoch (My)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Time(My).jpg)
 
-![Time vs epoch (NN)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Time(NN).jpg)
+![Time vs epoch (NN)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Time(NN).jpg)
 
-![Loss vs epoch (My)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Loss(My).jpg)
+![Loss vs epoch (My)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Loss(My).jpg)
 
-![Loss vs epoch (NN)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Loss(NN).jpg)
+![Loss vs epoch (NN)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Loss(NN).jpg)
