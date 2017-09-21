@@ -9,10 +9,15 @@ import torchvision
 from torch.autograd import Variable
 
 
-def test():
-	#prepare sample input for forwad()
-	train_loader = torchvision.datasets.MNIST('../data_MNIST', train=True, download=True, transform=True,target_transform=True)
-	epoch = 10;    learning_rate = 0.5;    batch_size = 100;    numCls = 10;	iteration = len(train_loader) / batch_size;
+def main():
+	# prepare sample input for forwad()
+	train_loader = torchvision.datasets.MNIST('../data_MNIST', train=True, download=True, transform=True,
+											  target_transform=True)
+	epoch = 10;
+	learning_rate = 0.5;
+	batch_size = 100;
+	numCls = 10;
+	iteration = len(train_loader) / batch_size;
 	input = (torch.squeeze(train_loader.train_data.view(iteration, batch_size, 1, 784), 2)).type(torch.FloatTensor)
 
 	# Test NnImg2Num
@@ -21,10 +26,10 @@ def test():
 	print('forward output', net.forward(input[0]))
 	print('call output', net(input[0]))
 
-	#Test MyImg2Num
+	# Test MyImg2Num
 	netMy = MyImg2Num();
 	netMy.train()
 	print('forward output', netMy.forward((input[0])))
 	print('call output', netMy((input[0])))
 
-test()
+main()
