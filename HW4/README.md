@@ -1,4 +1,4 @@
-#HW04 - Neural Networks- Back-propagation pass :NeuralNetwork API, MyImg2Num and NnImg2Num API
+##HW04 - Neural Networks- Back-propagation pass :NeuralNetwork API, MyImg2Num and NnImg2Num API
 
 ###1. Network size is [784,50,10]
 
@@ -6,9 +6,11 @@
 
 ###3. Accuracy is close. Though learning rate is different: 0.5 for MyImg2Num  and 0.001 for  NnImg2Num.
 
-## NeuralNetwork API has one class with five methods __init__, getLayer(), forward(), backward() and updateParams().
-## MyImg2Num API and NnImg2Num API each has one class with four methods __init__, __call__, forward() and train().
-## The error vs epoch, accuracy vs epoch and time vs epoch charts have 5 points each. Could not run more epochs as my NeuralNetwork API takes too much time per epoch.
+# NeuralNetwork API has one class with five methods __init__, getLayer(), forward(), backward() and updateParams().
+
+# MyImg2Num API and NnImg2Num API each has one class with four methods __init__, __call__, forward() and train().
+
+# The error vs epoch, accuracy vs epoch and time vs epoch charts have 5 points each. Could not run more epochs as my NeuralNetwork API takes too much time per epoch.
 
 ### MyImg2Num API methods :- (uses NeuralNetwork API)
 1. __init__ -  initializes a neural network model of given structure - no. of layers, size of each layer. 
