@@ -23,9 +23,15 @@
 * Works for single input vertor as well as batch inputs
 
 [GitHub](https://github.com/Shakib7/BME595-DeepLearning-sarwar/tree/master/HW4)
-[Accuracy vs epoch (My)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Acc(My).jpg)
-[Accuracy vs epoch (NN)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Acc(NN).jpg)
-[Time vs epoch (My)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Time(My).jpg)
-[Time vs epoch (NN)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Time(NN).jpg)
-[Loss vs epoch (My)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Loss(My).jpg)
-[Loss vs epoch (NN)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Loss(NN).jpg)
+
+![Accuracy vs epoch (My)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Acc(My).jpg)
+
+![Accuracy vs epoch (NN)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Acc(NN).jpg)
+
+![Time vs epoch (My)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Time(My).jpg)
+
+![Time vs epoch (NN)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Time(NN).jpg)
+
+![Loss vs epoch (My)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Loss(My).jpg)
+
+![Loss vs epoch (NN)] (https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW4/Loss(NN).jpg)
