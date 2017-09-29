@@ -28,7 +28,10 @@ Total training time ~9500s. Inference time = 0.5s(per image)
 
 [GitHub](https://github.com/Shakib7/BME595-DeepLearning-sarwar/tree/master/HW5)
 
-![Accuracy vs epoch (LeNet-5 and FCN trained on MNIST)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW5/MNIST_Accuracy.pdf)
-![Time vs epoch (LeNet-5 and FCN trained on MNIST)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW5/MNIST_Time.pdf
-![Accuracy vs epoch (LeNet-5 trained on CIFAR-100)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW5/CIFAR_Accuracy.pdf)
-![Time vs epoch (LeNet-5 trained on CIFAR-100)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW5/CIFAR_Time.pdf)
+![Accuracy vs epoch (LeNet-5 and FCN trained on MNIST)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW5/MNIST_Accuracy.jpg)
+
+![Time vs epoch (LeNet-5 and FCN trained on MNIST)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW5/MNIST_Time.jpg)
+
+![Accuracy vs epoch (LeNet-5 trained on CIFAR-100)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW5/CIFAR_Accuracy.jpg)
+
+![Time vs epoch (LeNet-5 trained on CIFAR-100)](https://github.com/Shakib7/BME595-DeepLearning-sarwar/blob/master/HW5/CIFAR_Time.jpg)
