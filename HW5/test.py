@@ -17,17 +17,17 @@ def test():
 	'''
 
 	#### prepare sample input for forward() in CIFAR100, need to unquote the 4 lines below
-	test_loader = torchvision.datasets.CIFAR100('../data_CIFAR100', train=False, download=True, transform=True,target_transform=True)
+	'''test_loader = torchvision.datasets.CIFAR100('../data_CIFAR100', train=False, download=True, transform=True,target_transform=True)
 	batch_size = 100;	numCls = 100;	iterationT = len(test_loader) / batch_size
 	input = (torch.from_numpy(test_loader.test_data)).type(torch.FloatTensor)
 	input=(torch.transpose(input.view(iterationT, batch_size, 32, 32,3),2,4))#/255
-
+	'''
 
 	###### Test Img2Obj
 	#net = Img2Obj()
-	net = torch.load('c_l.75_500')			# load trained net
+	#net = torch.load('c_l.75_500')			# load trained net
 	#print(net(input[0][13]))  				# test inference for one image [32x32] byte tensor
-	print(net.view(input[0][13]))			# test view function
+	#print(net.view(input[0][13]))			# test view function
 	#print (test_loader.test_labels[13])	# test label
 	#net.cam()								# test cam(), press 'q' to stop inference
 	#net.train()							# train network
