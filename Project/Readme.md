@@ -1,17 +1,19 @@
 # Incremental Learning using modified ResNet
-Will try to learn ImageNet dataset incrementally with transfer learning.
 
 ## Team members
 Syed Shakib Sarwar (Shakib7)
 
-## Goals
-1. Train whole ImageNet (1000 classes) using ResNet18 in PyTorch.
-2. Train ImageNet classes separately in 3 batches (500,300,200) using ResNet18 in PyTorch.
-3. Transfer weights from trained net with 500 classes and train only the classifier for 300 and 200 classes.
-4. Ensemble/merge the separately learned networks.
-5. Test accuracy for the individual networks and the merged network.
-
-## Challenges
-1. Training ImageNet using PyTorch and GPU.
-2. Transferring weights from trained network to another network.
-3. Merging (ensemble) separately learned networks and testing accuracy.
+## Files
+1. main.py: Train whole ImageNet (1000 classes) using ResNet34 in PyTorch.
+command: python main.py /dataFolder
+(dataFolder should have 1000 classes)
+2. trainBaseModel.py: Train 500 ImageNet classes to get the base network.
+command: python trainBaseModel.py /dataFolder 
+(dataFolder should have 500 classes)
+3. train_Incrementally.py: Train separately in 2 batches (300,200) using ResNet34 and Test accuracy for the individual networks.
+command: python train_Incrementally.py /dataFolder 
+(dataFolder should have 300 or 200 classes)
+4. predict.py: For the individual networks, save prediction probabilities.
+command: python predict.py /savedModelFolder 
+5. ensemble.py: Merge the separately learned piction probabilities and Test accuracy for the merged network.
+command: python ensemble.py /savedPredicitonFolder
